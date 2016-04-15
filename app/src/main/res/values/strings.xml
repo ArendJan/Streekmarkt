@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Streekmarkt</string>
+    <string name="title_activity_kramen">Kramen</string>
+    <string name="title_activity_kraam">Kraam</string>
+    <string name="title_activity_evenementen">Evenementen</string>
+    <string name="title_activity_evenement">Evenement</string>
+    <string name="title_activity_fotos">Fotos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_geschiedenis">Geschiedenis</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

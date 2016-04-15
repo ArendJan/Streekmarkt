@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_margin="0dp">
+
+
+    <ImageView
+        android:id="@+id/evenemenImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:src="@drawable/defimg" />
+
+    <TextView
+        android:id="@+id/evenementenTitel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/evenemenImage"
+        android:layout_alignLeft="@+id/evenemenImage"
+        android:text="titel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?attr/colorAccent"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/evenementenLText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/evenemenImage"
+        android:layout_centerHorizontal="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/readMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/evenementenLText"
+        android:layout_centerHorizontal="true"
+        android:text="LEES MEER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_bright" />
+
+
+</RelativeLayout>
